@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&family=Poppins:ital,wght@0,100;0,300;0,400;1,700&display=swap');
+body{
+    font-size: 16px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+nav{
+  position: fixed;
+  background-color: white;
+  width: 100vw;
+  height: 14vh;
+  z-index: 1;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    display: inline-block;
+    padding-top: 3%;
+    
+  }
+  li a {
+    
+    text-align: center;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.0rem;
+    padding: 3vh 2.6vw;
+    text-decoration: none;
+  }
+  nav li a:hover {
+    background-color: #ffded8;
+  }
+  .icons i {
+    position: relative;
+    padding-left: 10%;
+    padding-top: 11%;
+  }
+  #nav_bar {
+    padding-left: 25%;
+  }
+  #navbar_icon{
+    padding-left: 12%;
+  }
+  .links img{
+   
+    position: absolute;
+    left: 43%;
+    width: 14vw;
+    border-radius: 1.5rem;
+  }
+  .icons{
+    position: absolute;
+    left: 78%;
+    width: 20%;
+  }
+  .background_img{
+    z-index: 0;
+    position: relative;
+    padding-top: 14vh;
+    width: 100%;
+    background-color: #ffded8;
+    
+  }
+  .background_img img{
+    z-index: 0;
+    width: 100%;
+    height: 100vh;
+    opacity:0.7;
+  }
+  .title_white{
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    top: 20vh;
+    left: 7vw;
+    color: white;
+    font-size: 4rem;
+  }
+  .content{
+    position: relative;
+    padding-bottom: 20vh;
+
+  }
+  .content i{
+    padding-left: 50%;
+    padding-top: 20vh;
+  }
+  .content p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+    padding-left: 28%;
+    padding-top: 3vh;
+    padding-bottom: 15vh ;
+    width: 50%;
+    text-align: justify;
+
+  }
+  .content_img {
+    width: 45%;
+    margin: 0 2vw;
+    border: 2px solid black;
+    border-radius: 2rem ;
+  }
+  .content_logo{
+    margin: 14vh 16.5vw ;
+    border-radius: 1.5rem ;
+  }
+  footer{
+    background-color: #FF988F;
+  width: 100vw;
+  height: 40vh;
+  }
+  footer .icons{
+    padding-top: 13vh ;
+  }
+  .footer{
+    padding: 7vh 0vw 0vh 6vw;
+    display: inline-block;
+  }
+  .footer li{
+    display: block;
+    margin: 3vh 0;
+    font-weight: 600;
+  }
+  footer p{
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    vertical-align: top;
+    text-align: center;
+    font-weight: 600;
+    padding: 12vh 0 5vh 13vw;
+  }
+  
