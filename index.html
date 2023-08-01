@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">    
     <script src="https://kit.fontawesome.com/098c210ebc.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="src/css/style.css">
     <title>Boba Tea</title>
 </head>
@@ -19,9 +21,9 @@
         <ul class="nav_bar">
             <li class=""><a href="index.html">HOME</a></li>
             <li class=""><a href="menu.html">MENU</a></li>
-            <li class=""><a href="ABOUT">ABOUT</a></li>
-            <li class=""><a href="LOCATION">LOCATION</a></li>
-            <li id="nav_bar" ><a href="GALLERY">GALLERY</a></li>
+            <li class=""><a href="ABOUT.html">ABOUT</a></li>
+            <li class=""><a href="LOCATION.html">LOCATION</a></li>
+            <li id="nav_bar" ><a href="GALLERY.html">GALLERY</a></li>
             
         </ul>
         
@@ -35,15 +37,18 @@
     </div>
      </div>
      <div class="content">
-        <i class="fa-solid fa-circle-down fa-3x" style="color: #ff8878;"></i>
-        <p>Welcome to "Buba Tea," a charming tea haven with a diverse menu of refreshing blends. 
+        <i class="fa-solid fa-circle-down fa-3x" style="color: #ff8878;" 
+        data-aos="fade-up"
+        data-aos-duration="1000"></i>
+        <p data-aos="fade-up"
+        data-aos-duration="1000">Welcome to "Buba Tea," a charming tea haven with a diverse menu of refreshing blends. 
             Indulge in signature milk teas or creative fruit-infused concoctions. 
             Relax in the cozy ambiance and savor the delightful flavors in every sip.</p>
 
-            <img class="content_img" src="src/img/boba_2.jpg" alt="">
-            <img class="content_img" src="src/img/boba_2.jpg" alt="">
+            <img class="content_img" src="src/img/boba_2.jpg" alt="" data-aos="flip-left">
+            <img class="content_img" src="src/img/boba_2.jpg" alt="" data-aos="flip-left">
             <img  class="content_logo" src="src/img/bobatea_logo.png" alt="">
-            <img class="content_img" src="src/img/boba_2.jpg" alt="">
+            <img class="content_img" src="src/img/boba_2.jpg" alt="" data-aos="flip-left">
      </div>
      <footer>
         <a href=""><i id="navbar_icon" class="fa-brands fa-facebook fa-2x" style="color: black;"></i></a> 
@@ -64,5 +69,8 @@
         
         <p ><i class="fa-solid fa-location-dot" style="color: #ffded8;"></i> <br> 1073 Northern Bvd, Roslyn, ND: <br> 11576</p>
      </footer>
+     <script>
+        AOS.init();
+      </script>
 </body>
 </html>

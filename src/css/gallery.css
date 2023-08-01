@@ -6,8 +6,61 @@ body{
     margin: 0 auto;
     padding: 0;
 }
-h1{
-    margin-left: 40.5%;
+nav{
+  background-color: white;
+  width: 100vw;
+  height: 14vh;
+  z-index: 1;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    display: inline-block;
+    padding-top: 3%;
+    
+  }
+  li a {
+    
+    text-align: center;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.0rem;
+    padding: 3vh 2.6vw;
+    text-decoration: none;
+  }
+  nav li a:hover {
+    background-color: #ffded8;
+  }
+  .icons i {
+    position: relative;
+    padding-left: 10%;
+    padding-top: 11%;
+  }
+
+  #nav_bar {
+    padding-left: 25%;
+  }
+  #navbar_icon{
+    padding-left: 12%;
+  }
+  .links img{
+   
+    position: absolute;
+    left: 45%;
+    width: 11vw;
+    border-radius: 1.5rem;
+  }
+  .icons{
+    position: absolute;
+    left: 78%;
+    width: 20%;
+  }
+  h1{
+    margin-left: 28.5%;
+    margin-top: 15%;
     font-family: 'Spectral', serif;
     font-size: 5rem;
     color: #FF988F;
@@ -21,6 +74,7 @@ h1{
     
     justify-content: center;
     gap: 6%;
+    padding-bottom: 10% ;
   }
   
   
@@ -31,10 +85,13 @@ h1{
     border-radius: 5px;
     cursor: pointer;
   }
+
   
   ul.gallery img:hover {
     border-color: #ff9900;
   }
+
+
   .overlay {
     position: fixed;
     top: 0;
@@ -53,4 +110,30 @@ h1{
     height: 80%;
     border: 5px solid #fff;
     border-radius: 5px;
+  }
+
+  footer{
+    background-color: #FF988F;
+  width: 100vw;
+  height: 40vh;
+  }
+  footer .icons{
+    padding-top: 13vh ;
+  }
+  .footer{
+    padding: 7vh 0vw 0vh 6vw;
+    display: inline-block;
+  }
+  .footer li{
+    display: block;
+    margin: 3vh 0;
+    font-weight: 600;
+  }
+  footer p{
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    vertical-align: top;
+    text-align: center;
+    font-weight: 600;
+    padding: 12vh 0 5vh 13vw;
   }
